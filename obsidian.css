@@ -1,109 +1,122 @@
-#multi.theme-niflheim .content {
-  background: #393939;
-  color: #b8c4cf;
+#multi.theme-obsidian .content {
+	background: #393939;
+	color: #b8c4cf;
 }
 
-#multi.theme-niflheim .tabset .list .active {
-  color:var(placeholder-fg);
-  background: #393939;
+#multi.theme-obsidian .tabset .list .active {
+	color:var(placeholder-fg);
+	background: #393939;
 }
 
-#multi.theme-niflheim .tabset.active .list .active {
-  color:var(highlight-fg);
-  background: #393939;
+#multi.theme-obsidian .tabset.active .list .active {
+	color:var(obsidian-fg);
+	background: #393939;
 }
 
-#multi.theme-niflheim .list li:hover {
-  background: #393939;
+#multi.theme-obsidian .list li:hover {
+	background: #393939;
 }
 
 /**
  *
  */
 
-#multi.theme-niflheim .tabset.active .list .dirty {
-  color:var(accent-foreground);
+#multi.theme-obsidian .tabset.active .list .dirty {
+	color:var(accent-foreground);
 }
 
-.cm-s-niflheim {
-  background-color: #3b3f41;
-  color: #b8c4cf;
-  padding-left: 0;
+.cm-s-obsidian {
+	background-color: #3b3f41;
+	color: #b8c4cf;
+	padding-left: 0;
 }
 
-.cm-s-niflheim span.cm-bracket {color: #b8c4cf;}
-.cm-s-niflheim span.cm-bracket1 {color: #b8c4cf;}
-.cm-s-niflheim span.cm-bracket2 {color: #83e1b2;}
-.cm-s-niflheim span.cm-bracket3 {color: #aec;}
-.cm-s-niflheim span.cm-bracket4 {color: #7ad1dd;}
-.cm-s-niflheim span.cm-bracket5 {color: #caa9fa;}
-.cm-s-niflheim span.cm-bracket6 {color: #cc9dc7;}
-.cm-s-niflheim span.cm-bracket7 {color: #b96ed0;}
-.cm-s-niflheim span.cm-bracket8 {color: #83e1b2;}
-.cm-s-niflheim span.cm-bracket9 {color: #7ad1dd;}
-.cm-s-niflheim span.cm-bracket10 {color: #aec;}
-.cm-s-niflheim span.cm-bracket11 {color: #7ad1dd;}
-.cm-s-niflheim span.cm-bracket12 {color: #b96ed0;}
-.cm-s-niflheim span.cm-bracket0, .cm-s-niflheim span.cm-bracket-mismatched {
+.cm-s-obsidian span.cm-bracket {color: #b8c4cf;}
+.cm-s-obsidian span.cm-bracket1 {color: #b8c4cf;}
+.cm-s-obsidian span.cm-bracket2 {color: #83e1b2;}
+.cm-s-obsidian span.cm-bracket3 {color: #aec;}
+.cm-s-obsidian span.cm-bracket4 {color: #7ad1dd;}
+.cm-s-obsidian span.cm-bracket5 {color: #caa9fa;}
+.cm-s-obsidian span.cm-bracket6 {color: #cc9dc7;}
+.cm-s-obsidian span.cm-bracket7 {color: #b96ed0;}
+.cm-s-obsidian span.cm-bracket8 {color: #83e1b2;}
+.cm-s-obsidian span.cm-bracket9 {color: #7ad1dd;}
+.cm-s-obsidian span.cm-bracket10 {color: #aec;}
+.cm-s-obsidian span.cm-bracket11 {color: #7ad1dd;}
+.cm-s-obsidian span.cm-bracket12 {color: #b96ed0;}
+.cm-s-obsidian span.cm-bracket0, .cm-s-obsidian span.cm-bracket-mismatched {
 	color:#f88;
 	background:#733;
 }
 
-.cm-s-niflheim span.cm-symbol {color: #ccc;}
-.cm-s-niflheim span.cm-variable {color: #ff6c6b;}
-.cm-s-niflheim span.cm-variable-2 {color: #aaccff}
-.cm-s-niflheim span.cm-string {color: #7ad1dd;}
-.cm-s-niflheim span.cm-string-2 {color: #929283}
-.cm-s-niflheim span.cm-number {color: #ccccab;}
-.cm-s-niflheim span.cm-def {color:#c2803f;}
-.cm-s-niflheim span.cm-builtin {color: #f49346;}
-.cm-s-niflheim span.cm-header {
-  color: #c2803f;
-  font-weight: bold;
+.cm-s-obsidian span.cm-symbol {color: #ccc;}
+.cm-s-obsidian span.cm-variable {color: #ff6c6b;}
+.cm-s-obsidian span.cm-variable-2 {color: #aaccff}
+.cm-s-obsidian span.cm-string {color: #7ad1dd;}
+.cm-s-obsidian span.cm-string-2 {color: #929283}
+.cm-s-obsidian span.cm-number {color: #ccccab;}
+.cm-s-obsidian span.cm-def {color:#c2803f;}
+.cm-s-obsidian span.cm-builtin {color: #f49346;}
+.cm-s-obsidian span.cm-header {
+	color: #c2803f;
+	font-weight: bold;
 }
 
-.cm-s-niflheim span.cm-property {color: #cc9dc7;}
-.cm-s-niflheim span.cm-operator {color: #aaa;}
-.cm-s-niflheim span.cm-keyword {
-  color: #ffcd8e;
-  font-weight: bold;
+.cm-s-obsidian span.cm-property {color: #cc9dc7;}
+.cm-s-obsidian span.cm-operator {color: #aaa;}
+.cm-s-obsidian span.cm-keyword {
+	color: #ffcd8e;
+	font-weight: bold;
 }
-.cm-s-niflheim span.cm-qualifier {color: #74a566;}
-.cm-s-niflheim span.cm-attribute {color: #83e1b2;}
-.cm-s-niflheim span.cm-meta {color: #aec;}
-.cm-s-niflheim span.cm-atom {color: #caa9fa;}
-.cm-s-niflheim span.cm-tag {color: #7ac1ff;}
-.cm-s-niflheim span.cm-comment { color: #74a566;}
-.cm-s-niflheim span.CodeMirror-searching { background: #aaa; color:black;}
-.cm-s-niflheim span.CodeMirror-searching-active { background: #afa; color:black;}
+.cm-s-obsidian span.cm-qualifier {color: #74a566;}
+.cm-s-obsidian span.cm-attribute {color: #83e1b2;}
+.cm-s-obsidian span.cm-meta {color: #aec;}
+.cm-s-obsidian span.cm-atom {color: #caa9fa;}
+.cm-s-obsidian span.cm-tag {color: #7ac1ff;}
+.cm-s-obsidian span.cm-comment { color: #74a566;}
+.cm-s-obsidian span.CodeMirror-searching { background: #aaa; color:black;}
+.cm-s-obsidian span.CodeMirror-searching-active { background: #afa; color:black;}
 
-.cm-s-niflheim .CodeMirror-selected {
-  background: rgba(255,255,255,.2);
+.cm-s-obsidian .CodeMirror-selected {
+	background: rgba(255,255,255,.2);
 }
-.cm-s-niflheim .CodeMirror-focused .CodeMirror-selected { background: #ff0000;}
+.cm-s-obsidian .CodeMirror-focused .CodeMirror-selected { background: #ff0000;}
 
-.cm-s-niflheim .CodeMirror-activeline-background { background:#303030;}
-.cm-s-niflheim span.CodeMirror-matchingbracket {
-  border-bottom: 1px solid #33ffff;
-  color: #ccc19b;
+.cm-s-obsidian .CodeMirror-activeline-background { background:#303030;}
+.cm-s-obsidian span.CodeMirror-matchingbracket {
+	border-bottom: 1px solid #33ffff;
+	color: #ccc19b;
 }
-.cm-s-niflheim span.CodeMirror-nonmatchingbracket {
-  border-bottom: 1px solid #cb3233;
-  color: #cb3233;
+.cm-s-obsidian span.CodeMirror-nonmatchingbracket {
+	border-bottom: 1px solid #cb3233;
+	color: #cb3233;
 }
 
-.cm-s-niflheim .cm-searching { background:#5f5f5f; border-radius:0px; color:#eee !important;}
-.cm-s-niflheim .searching-current { background:#13879C; color:#BFFCFF !important;}
+.cm-s-obsidian .cm-searching {
+	background:#5f5f5f;
+	border-radius:0px;
+	color:#eee !important;
+}
+.cm-s-obsidian .searching-current {
+	background:#13879C;
+	color:#BFFCFF !important;
+}
 
 .CodeMirror div.CodeMirror-cursor {
   border-left: 2px solid #c7c7c7;
 }
 /* Shown when moving in bi-directional text */
-.CodeMirror div.CodeMirror-secondarycursor { border-left: 1px solid silver;}
-.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: none !important; background: rgba(0, 200, 200, .4);}
+.CodeMirror div.CodeMirror-secondarycursor {
+	border-left: 1px solid silver;
+}
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+	width: auto;
+	border: none !important;
+	background: rgba(0, 200, 200, .4);
+}
 
 .CodeMirror-gutters {
-  border-style: none;
+	border-style: none;
     background: #202020;
 }
 
@@ -115,14 +128,52 @@
     background-repeat: repeat-y;
 }
 
-.cm-s-niflheim .CodeMirror-linenumber {
-  color: #80939b;
+.cm-s-obsidian .CodeMirror-linenumber {
+	color: #80939b;
 	padding-left: 5px;
 }
 
-.CodeMirror-hints { position: absolute; z-index: 1000000000000000; overflow: hidden; list-style: none;  margin: 0; padding: 2px;  border-radius: 2px; border: 1px solid var(pane-bg);  background: var(pane-bg); font-size: 90%; font-family: inherit;  max-height: 20em;}
-.CodeMirror-hints ul { overflow-y:auto; max-height:20em;}
-.CodeMirror-hints ul li { margin: 0; padding: 0 4px; border-radius: 2px; max-width: 60em; overflow: hidden; white-space: pre; color: #ccc; cursor: pointer;}
-.CodeMirror-hints input { display:none;}
-.CodeMirror-hints .selected { background: var(highlight-bg); color: var(highlight-fg);}
-.CodeMirror-hints ul::-webkit-scrollbar-thumb { background: var(scrollbar); border-color: var(scrollbar);}
+.CodeMirror-hints {
+	position: absolute;
+	z-index: 1000000000000000;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 2px;
+	border-radius: 2px;
+	border: 1px solid var(pane-bg);
+	background: var(pane-bg);
+	font-size: 90%;
+	font-family: inherit;
+	max-height: 20em;
+}
+
+.CodeMirror-hints ul {
+	overflow-y:auto;
+	max-height:20em;
+}
+
+.CodeMirror-hints ul li {
+	margin: 0;
+	padding: 0 4px;
+	border-radius: 2px;
+	max-width: 60em;
+	overflow: hidden;
+	white-space: pre;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.CodeMirror-hints input {
+	display:none;
+}
+
+.CodeMirror-hints .selected {
+	background: var(highlight-bg);
+	color: var(highlight-fg);
+}
+
+.CodeMirror-hints ul::-webkit-scrollbar-thumb {
+	background: var(scrollbar);
+	border-color: var(scrollbar);
+}

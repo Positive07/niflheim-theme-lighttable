@@ -1,1 +1,1 @@
-{:+ {:app [(:lt.objs.style/provide-theme "niflheim" "niflheim.css")]}}
+{:+ {:app [(:lt.objs.style/provide-theme "obsidian" "obsidian.css")]}}

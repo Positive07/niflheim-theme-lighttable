@@ -1,6 +1,6 @@
-{:name "Niflheim theme"
+{:name "Obsidian theme"
  :version "1.0.0"
- :author "Benjamin Van Ryseghem"
- :source "https://github.com/niflheim-theme/niflheim-theme-lighttable"
- :desc "Dark theme with nice contrast for hours of fun coding without hurting your little eyes"
- :behaviors "niflheim.behaviors"}
+ :author "Pablo Ariel Mayobre"
+ :source "https://github.com/Positive07/obsidian-theme-lighttable"
+ :desc "Dark theme based on Notepad++ Obsidian theme, with some tweaks to look nicer!"
+ :behaviors "obsidian.behaviors"}
